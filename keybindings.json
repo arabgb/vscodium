@@ -1,0 +1,40 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        // auto formating the document
+        "key": "alt+a f",
+        "command": "editor.action.format",
+    },
+    {
+        // Save all (mac)
+        "key": "cmd+shift+s",
+        "command": "saveAll"
+    },
+    {
+        // Save all (linux)
+        "key": "ctrl+shift+s",
+        "command": "saveAll"
+    },
+    {
+        // open terminal  (mac)
+        "key": "ctrl+[IntlBackslash]",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        // open terminal  (mac)
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        // set focus on terminal
+        "key": "alt+f t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        // set focus on terminal
+        "key": "alt+f e",
+        "command": "workbench.action.focusActiveEditorGroup",
+    }
+]
