@@ -1,4 +1,7 @@
 {
+    // fix menu style for fedora
+    "window.titleBarStyle": "custom",
+    
     // auto format when save file
     "editor.formatOnSave": true
 }
