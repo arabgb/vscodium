@@ -29,12 +29,51 @@
     },
     {
         // set focus on terminal
-        "key": "alt+f t",
+        "key": "alt+t f",
         "command": "workbench.action.terminal.focus"
+    },
+    {
+        // set focus on terminal
+        "key": "ctrl+]",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        // set focus on terminal
+        "key": "ctrl+[",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        // set focus on terminal
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
     },
     {
         // set focus on terminal
         "key": "alt+f e",
         "command": "workbench.action.focusActiveEditorGroup",
+    },
+    // FILE TREE
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.newWindow",
+        "when": "!explorerViewletFocus"
     }
 ]

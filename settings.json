@@ -1,7 +1,109 @@
 {
     // fix menu style for fedora
     "window.titleBarStyle": "custom",
-    
     // auto format when save file
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    // Vim configuration
+    "vim.leader": "\\",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch between buffers
+        {
+            "before": [
+                "leader",
+                "b",
+                "]"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b",
+                "["
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        // split
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        // FILE TREE
+        {
+            "before": [
+                "leader",
+                "t",
+                "t"
+            ],
+            "commands": [
+                "workbench.explorer.fileView.focus"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        }
+    ]
 }
