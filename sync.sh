@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- CONFIGURATION: SET YOUR PATHS ---
-MAC_PATH="/Users/yourname/configs"
+MAC_PATH="/Users/nabohamad/Library/Application Support/VSCodium/User"
 LINUX_PATH="/home/ntweb/.config/VSCodium/User"
 
 # --- FILE LIST: ADD THE FILES YOU WANT TO SYNC ---
