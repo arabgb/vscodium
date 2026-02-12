@@ -104,6 +104,16 @@
             "commands": [
                 "workbench.action.quickOpen"
             ]
+        },
+        // FORMATTNG
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
         }
     ]
 }
